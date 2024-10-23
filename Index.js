@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 const User_Model = require('./Models/User_Model');
 const Dawat_Model = require('./Models/Dawat_Model')
 
-const db = require('./db');
+const db = require('./DB');
 const path = require('path');
 app.use(express.json());
 
